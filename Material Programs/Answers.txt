@@ -1,0 +1,312 @@
+
+							=======================================================
+								ANSWERS FOR LAB368-LAB421 by PHANI KUMAR 
+							=======================================================
+
+
+
+Lab368:
+Hello Guys
+3.141592653589793
+4.0
+---------------------------------------
+Lab370:
+Error: Could not find or load main class lab370
+---------------------------------------
+Lab371:
+lab371.java:12: error: ab has protected access in Hello
+System.out.println(h.ab);
+
+lab371.java:14: error: ab has protected access in Hello
+System.out.println(ref.ab);
+                      ^
+2 errors
+---------------------------------------                    ^
+Lab372:
+lab372.java:16: error: illegal start of expression
+public void setX(int x)
+^
+lab372.java:16: error: illegal start of expression
+public void setX(int x)
+       ^
+lab372.java:16: error: ';' expected
+public void setX(int x)
+                ^
+lab372.java:16: error: ';' expected
+public void setX(int x)
+                      ^
+lab372.java:20: error: illegal start of expression
+public void getX(int x)
+^
+lab372.java:20: error: illegal start of expression
+public void getX(int x)
+       ^
+lab372.java:20: error: ';' expected
+public void getX(int x)
+                ^
+lab372.java:20: error: ';' expected
+public void getX(int x)
+                      ^
+lab372.java:24: error: reached end of file while parsing
+}
+---------------------------------------                    ^
+lab373:
+Hello -> m1()
+Hai -> m3()
+Hai -> m2()
+---------------------------------------                    ^
+lab374:
+A->show()
+B->SHOW()
+---------------------------------------                    ^
+lab375:
+A->show (int)
+B->SHOW (String)
+---------------------------------------                    ^
+lab376:
+<BLANK SPACE>
+---------------------------------------                    ^
+lab377:
+lab377.java:17: error: m1() in Hai cannot override m1() in Hello
+B m1()
+  ^
+  return type B is not compatible with A
+1 error
+---------------------------------------                    ^
+lab378:
+<BLANK SPACE>
+---------------------------------------                    ^
+lab379:
+<BLANK SPACE>
+---------------------------------------                    ^
+lab380:
+lab380.java:13: error: m1() in B cannot override m1() in A
+void m1()
+     ^
+  overridden method is final
+1 error
+---------------------------------------                    ^
+lab381:
+<BLANK SPACE>
+---------------------------------------                    ^
+lab382:
+lab382.java:5: error: non-static method m1() cannot be referenced from a static context
+B.m1();
+ ^
+1 error
+---------------------------------------                    ^
+lab383:
+<BLANK SPACE>
+---------------------------------------                    ^
+lab384:
+lab384.java:4: error: m1() has private access in B
+new B().m1();
+       ^
+lab384.java:12: error: m1() in B cannot override m1() in A
+private void m1(){
+             ^
+  attempting to assign weaker access privileges; was package
+2 errors
+---------------------------------------                    ^
+lab385:
+<BLANK SPACE>
+---------------------------------------                    ^
+lab386:
+lab386.java:4: error: m1() has private access in B
+new B().m1();
+       ^
+lab386.java:13: error: m1() in B cannot override m1() in A
+private void m1(){}
+             ^
+  attempting to assign weaker access privileges; was protected
+lab386.java:14: error: m2() in B cannot override m2() in A
+void m2(){}
+     ^
+  attempting to assign weaker access privileges; was protected
+3 errors
+---------------------------------------                    ^
+lab387:
+<BLANK SPACE>
+---------------------------------------                    ^
+lab388:
+lab388.java:11: error: m1() in B cannot override m1() in A
+protected void m1(){}
+               ^
+  attempting to assign weaker access privileges; was public
+1 error
+---------------------------------------                    ^
+lab389:
+<BLANK SPACE>
+---------------------------------------                    ^
+lab390:
+B->m1()
+---------------------------------------                    ^
+lab391:	
+B->m1()
+A->m1()
+---------------------------------------                    ^
+lab392:
+B->m1()
+---------------------------------------                    ^
+lab393:
+Person->eating()
+Person->eating()
+---------------------------------------                    ^
+lab394:
+Student->walking()
+Employee->walking()
+---------------------------------------                    ^
+lab395:
+Person->sleeping()
+Person->sleeping()
+---------------------------------------                    ^
+lab396:
+lab396.java:7: error: cannot find symbol
+pob.reading();
+   ^
+  symbol:   method reading()
+  location: variable pob of type Person
+lab396.java:9: error: cannot find symbol
+pob.working();
+   ^
+  symbol:   method working()
+  location: variable pob of type Person
+2 errors
+---------------------------------------                    ^
+lab397:
+Student->reading()
+Employee->working()
+---------------------------------------                    ^
+lab398:
+10
+---------------------------------------                    ^
+lab399:
+<BLANK SPACE>
+---------------------------------------                    ^
+lab400:
+lab400.java:4: error: missing method body, or declare abstract
+void area();
+     ^
+1 error
+---------------------------------------                    ^
+lab401:
+lab401.java:2: error: shape is not abstract and does not override abstract method area() in shape
+class shape
+^
+1 error
+---------------------------------------                    ^
+lab402:
+lab402.java:11: error: shape is abstract; cannot be instantiated
+shape sp=new shape();
+         ^
+1 error
+---------------------------------------                    ^
+lab403:
+lab403.java:6: error: square is not abstract and does not override abstract method area() in shape
+class square extends shape{}
+^
+1 error
+---------------------------------------                    ^
+lab404:
+Square->area()
+---------------------------------------                    ^
+lab405:
+lab405.java:7: error: student is not abstract and does not override abstract method walking() in person
+class student extends person{
+^
+1 error
+---------------------------------------                    ^
+lab406:
+student->sleeping()
+---------------------------------------                    ^
+lab407:
+1234
+Hello->show()
+---------------------------------------                    ^
+lab408:
+Hello (int) Cons
+Hello->show()
+---------------------------------------                    ^
+lab409:
+Lab 409 Main Method
+---------------------------------------                    ^
+lab410:
+lab410.java:9: error: no interface expected here
+class Hello extends inter1
+                    ^
+1 error
+---------------------------------------                    ^
+lab411:
+lab411.java:9: error: Hello is not abstract and does not override abstract method m2() in inter1
+class Hello implements inter1
+^
+1 error
+---------------------------------------                    ^
+lab412:
+Hello Guys!!
+---------------------------------------                    ^
+lab413:
+lab413.java:11: error: m1() in Hello cannot implement m1() in inter1
+void m1()
+     ^
+  attempting to assign weaker access privileges; was public
+1 error
+---------------------------------------                    ^
+lab414:
+Hello->m1()
+Hello->m2()
+---------------------------------------                    ^
+lab415:
+Hello->m1():10
+Hello->m2():20
+---------------------------------------                    ^
+lab416:
+10
+11
+Hello->m1()
+Hello->m2()
+---------------------------------------                    ^
+lab417:
+Hello->m1()
+Hello->m2()
+Hello->m3()
+20
+30
+---------------------------------------                    ^
+lab418:
+lab418.java:13: error: reference to a is ambiguous
+System.out.println(a);
+                   ^
+  both variable a in inter1 and variable a in inter2 match
+1 error
+
+---------------------------------------                    ^
+lab419:
+Hello->m1()
+Hello->m2()
+Hello->m3()
+10
+11
+20
+30
+---------------------------------------                    ^
+lab420:
+lab420.java:1: error: Hello is not abstract and does not override abstract method m2() in inter1
+class Hello implements inter1,inter2{
+^
+1 error
+---------------------------------------                    ^
+lab421:
+lab421.java:16: error: cannot find symbol
+b.show();
+^
+  symbol:   variable b
+  location: class lab421
+1 error
+
+
+
+================================================================The End=================================================
+
+
+
